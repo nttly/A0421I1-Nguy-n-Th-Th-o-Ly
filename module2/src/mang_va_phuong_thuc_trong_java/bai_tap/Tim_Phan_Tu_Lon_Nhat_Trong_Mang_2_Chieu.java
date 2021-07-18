@@ -12,8 +12,18 @@ public class Tim_Phan_Tu_Lon_Nhat_Trong_Mang_2_Chieu {
         for (int i=0;i<dong;i++){
             for (int j=0;j<cot;j++){
                 System.out.print("Nhập phần tử thứ["+i+","+j+"]:");
+                arr[i][j]=scanner.nextInt();
             }
         }
+        int max =arr[0][0];
+        for (int i =0;i<dong;i++){
+           for (int j=0;j<cot;j++){
+               if (max<arr[i][j]){
+                   max =arr[i][j];
+               }
+           }
+        }
+        System.out.println("Phần tử lớn nhất trong mảng là:"+max);
 
     }
 }

@@ -1,15 +1,19 @@
 package mang_va_phuong_thuc_trong_java.bai_tap;
+
 import java.util.Scanner;
-public class Xoa_Phan_Tu_Khoi_Mang {
+
+public class ThemPhanTuVaoMang {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Nhập số phần tử của mảng:");
         int n = scanner.nextInt();
         int arr[]= new int[n];
         inputArray(arr,scanner);
-        System.out.println("Nhập phần tử cần xóa:");
+        System.out.println("Nhập phần tử cần them:");
         int s = scanner.nextInt();
-        xoa(arr,s);
+        System.out.println("Nhập vị cần thêm:");
+        int k = scanner.nextInt();
+        them(arr,s,k);
 
     }
     public static void inputArray(int[] a, Scanner input) {
@@ -24,27 +28,27 @@ public class Xoa_Phan_Tu_Khoi_Mang {
             System.out.print( b[i]+"\t");
         }
     }
-    public static void xoa(int[] arr, int soCanXoa) {
-        int size = arr.length;
-        int dem = 0;
-        int k = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == soCanXoa) {
-                dem++;
-            }
+    public static void them(int[] arr, int soCanThem, int vitri) {
+        if (vitri <1 && vitri>arr.length-1){
+            System.out.println("Vị trí không đúng");
+            return;
         }
-        int newArr[] = new int[size - dem];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == soCanXoa) {
-                continue;
+        else {
+            int[] newArr = new int[arr.length+1];
+            for (int i=0;i<newArr.length;i++){
+                if (i<vitri){
+                    newArr[i] = arr[i];
+                } else if (i>vitri){
+                    newArr[i] = arr [i -1];
+                } else {
+                    newArr[vitri]= vitri;
+                }
+
             }
-            newArr[k] = arr[i];
-            k++;
-        }
-        if (dem > 0) {
+            System.out.println("Mảng sau khi thêm là:");
             showArray(newArr);
-        } else {
-            System.out.println("không tìm thấy giá trị cần xoá");
         }
+
+
     }
 }
