@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d43ccb7-9189-4344-bb96-28a7050706a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../module2/src/danh_sach/thuchanh/myList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/baitap/daoNguocMang/DaoNguocChuoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/thuchanh/myGenericStack/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/thuchanh/myGenericStack/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/thuchanh/myLinkedListQueue/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/thuchanh/myLinkedListQueue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module2/src/stack_queue/thuchanh/myLinkedListQueue/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Báo cáo/CodeGym-A0421I1_NguyenThiThaoLy_tuần 6_module2docx.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Báo cáo/CodeGym-A0421I1_NguyenThiThaoLy_tuần 6_module2docx.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +29,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7d43ccb7-9189-4344-bb96-28a7050706a9" name="Default Changelist" comment="" />
@@ -34,10 +43,11 @@
       <option name="presentableId" value="Default" />
       <updated>1629274217456</updated>
       <workItem from="1629274218776" duration="24000" />
+      <workItem from="1630072227516" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
 </project>
