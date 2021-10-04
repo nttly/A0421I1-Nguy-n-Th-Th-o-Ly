@@ -1,5 +1,5 @@
-create database quan_ly_ban_hang2;
-use quan_ly_ban_hang2;
+create database bt2;
+use bt2;
 create table customer(
 	id int auto_increment primary key,
     `name` varchar(50),
