@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng Boxmodel</title>
+    <style>
+        body {
+            font-family: Verdana,sans-serif;
+            font-size: 0.9em;
+        }
+        
+        header, footer {
+            padding: 10px;
+            color: white;
+            background-color: black;
+        }
+        
+        section {
+            margin: 5px;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+        
+        article {
+            margin: 5px;
+            padding: 10px;
+            background-color: white;
+        }
+        aside{
+            margin: 5px;
+            padding: 10px;
+            width: 600px;
+            height: 400px;
+            background-color: white;
+        }
+        
+        nav ul {
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 5px;
+        }
+        .col-1 {width: 8.33333%;} 
+        .col-2 {width: 16.66667%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33333%;}
+        .col-5 {width: 41.66667%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33333%;}
+        .col-8 {width: 66.66667%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33333%;}
+        .col-11 {width: 91.66667%;}
+        .col-12 {width: 100%;}
+        .row{
+            display: flex; /* nổi trên cùng một hàng */
+            flex-wrap: wrap;
+        }
+        
+    </style>
+</head>
+<body>
+<div>
+    <header>
+    <h1>Kênh 14</h1>
+    </header>
+
+<nav>
+<ul>
+  <li>Star</li>
+  <li>Beauty & fashion</li>
+  <li>Sport</li>
+  <li>Video</li>
+</ul>
+</nav>
+
+<section>
+  <h2>News Section</h2>
+ <div class="row">
+    <div class="col-6 ">
+    <article>
+    <h3>Nhà văn nổi tiếng Trung Quốc chỉ ra lỗi lầm của bố mẹ hủy hoại con trẻ, nằm trong chính 4 chữ được tôn sùng: Học để thành công!
+        </h3>
+    <p>Quan điểm được nhiều người làm bố làm mẹ tôn sùng có nguy cơ sẽ hủy hoại cuộc đời một đứa trẻ, nếu bị vận dụng một cách lệch lạc và áp đặt</p>
+  </article>
+  <article>
+    <h3>Chọn một tụ bài Tarot: Bạn đang thu hút ai hay điều gì đến với cuộc sống của mình?</h3>
+    <p>Thông qua một tụ bài Tarot mà bạn chọn, bạn sẽ biết bản thân đang thu hút ai hay điều gì đến với mình. Hãy chọn một tụ bài để khám phá nhé!</p>
+  </article>
+    </div>
+    <div class="col-3">
+        <aside>
+            <h3> Bảng xếp hạng nhạc hot</h3>
+            <ol>
+                <li>Rồi tới luôn</li>
+                <li>Yêu là cưới</li>
+                <li>Muộn rồi mà sao còn</li>
+                <li>Yêu Là Cưới</li>
+                <li>Em Là Con Thuyền Cô Đơn</li>
+                <li>Khuê Mộc Lang</li>
+                <li>Người Lạ Thoáng Qua</li>
+                <li>Thay Lòng</li>
+                <li>Có Một Tình Yêu Gọi Là Chia Tay</li>
+                <li>Thương Nhau Tới Bến</li>
+            </ol>
+        </aside>
+    </div>
+</div>
+</section>
+
+<footer>
+  <p>&copy; Tầng 4 Tòa nhà 123, 123 Võ Văn Tần, phường 6, quận 3, Tp. HCM Điện thoại: 028. 7307 7979</p>
+</footer>
+</div>
+</body>
+</html>
